@@ -110,14 +110,7 @@ function Footer() {
                   hover:text-lime-500
                 "> Facebook </p>
                   </li>
-                  <li>
-                    <p className="
-                  text-base
-                  font-normal
-                  text-gray-500
-                  hover:text-lime-500
-                "> Indie Hackers </p>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -127,7 +120,7 @@ function Footer() {
       <div className="bg-gray-50"> 
       <div className="px-4 py-8 mx-auto max-w-7xl sm:px-6 lg:px-16">
         <div className="flex flex-wrap items-baseline">
-          <p className="mt-2 text-sm font-light text-lime-500"> Copyright © 2022 <span className="mx-2 text-wickedlime hover:text-gray-500" rel="noopener noreferrer">Auto Accessories Vessel --</span>. Since 2020 </p>
+          <p className="mt-2 text-sm font-light text-gray-900"> Copyright © 2022 <span className="mx-2 text-wickedlime hover:text-gray-500" rel="noopener noreferrer">Auto Accessories Vessel --</span>. Since 2020 </p>
         </div>
       </div>      
       </div>
