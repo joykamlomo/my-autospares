@@ -1,10 +1,13 @@
 
+import { useRouter } from 'next/router'
 import CategoryPreview from '../components/CategoryPreview'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Welcome from '../components/Welcome'
 
 export default function Home() {
+  const router = useRouter();
+  
   return (
     <div>
      {/* insert a header */}
@@ -38,12 +41,12 @@ export default function Home() {
                 <div className="flex -mx-4 flex-wrap items-center">
                   <div className="w-full md:w-1/3 px-4 mb-3">
                     <div className="flex items-center justify-center w-full md:w-24 h-32 bg-gray-100">
-                      <img className="h-full object-contain" src="yofte-assets/images/waterbottle.png" alt="" />
+                      <img className="h-full object-contain" src="/images/3.jpg" alt="" />
                     </div>
                   </div>
                   <div className="w-2/3 px-4">
-                    <h3 className="mb-2 text-xl font-bold font-heading">BRILE water filter carafe</h3>
-                    <p className="text-gray-500">Maecenas 0.7 commodo sit</p>
+                    <h3 className="mb-2 text-xl font-bold font-heading">Engine Oil</h3>
+                    <p className="text-gray-500">For Benz</p>
                   </div>
                 </div>
               </div>
@@ -71,12 +74,12 @@ export default function Home() {
                 <div className="flex -mx-4 flex-wrap items-center">
                   <div className="w-full md:w-1/3 px-4 mb-3">
                     <div className="flex items-center justify-center w-full md:w-24 h-32 bg-gray-100">
-                      <img className="h-full object-contain" src="yofte-assets/images/basketball.png" alt="" />
+                      <img className="h-full object-contain" src="/images/2.jpg" alt="" />
                     </div>
                   </div>
                   <div className="w-full md:w-2/3 px-4">
-                    <h3 className="mb-2 text-xl font-bold font-heading">Nike basketball ball</h3>
-                    <p className="text-gray-500">Lorem ipsum dolor L</p>
+                    <h3 className="mb-2 text-xl font-bold font-heading">Spares Spanners</h3>
+                    <p className="text-gray-500">Multipurpose</p>
                   </div>
                 </div>
               </div>
@@ -126,7 +129,7 @@ export default function Home() {
               <span className="text-xl font-bold font-heading text-white">Order total</span>
               <span className="text-xl font-bold font-heading text-white">$100.67</span>
             </div>
-            <a className="block w-full py-4 bg-gray-500 hover:bg-orange-400 text-center text-white font-bold font-heading uppercase rounded-md transition duration-200" href="#">Go to Checkout</a>
+            <a className="block w-full py-4 bg-gray-500 hover:bg-orange-400 text-center text-white font-bold font-heading uppercase rounded-md transition duration-200" href="#">Get Quotation</a>
           </div>
         </div>
       </div>
