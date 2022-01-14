@@ -5,7 +5,7 @@ function Footer() {
       <div className="px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-16">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="text-white xl:col-span-1">
-            <a href="/" className="
+            <p href="/" className="
           text-lg
           font-bold
           tracking-tighter
@@ -16,7 +16,7 @@ function Footer() {
           transform
           tracking-relaxed
           lg:pr-8
-        "> Auto Accessories Vessel </a>
+        "> Auto Accessories Vessel </p>
             <p className="w-1/2 mt-2 text-sm text-gray-500"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque </p>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
@@ -25,13 +25,13 @@ function Footer() {
                 <h3 className="text-sm font-bold tracking-wider text-lime-500 uppercase"> INFORMATION </h3>
                 <ul role="list" className="mt-4 space-y-2">
                   <li>
-                    <a href="/pricing" className=" text-base font-normal text-gray-500 hover:text-lime-500"> Pricing </a>
+                    <p  className=" text-base font-normal text-gray-500 hover:text-lime-500"> Pricing </p>
                   </li>
                   <li>
-                    <a href="/pricing" className=" text-base font-normal text-gray-500 hover:text-lime-500"> Delivery Info </a>
+                    <p  className=" text-base font-normal text-gray-500 hover:text-lime-500"> Delivery Info </p>
                   </li>
                   <li>
-                    <a href="/pricing" className=" text-base font-normal text-gray-500 hover:text-lime-500"> Paying by Invoice </a>
+                    <p  className=" text-base font-normal text-gray-500 hover:text-lime-500"> Paying by Invoice </p>
                   </li>
                 </ul>
               </div>
@@ -39,16 +39,16 @@ function Footer() {
                 <h3 className="text-sm font-bold tracking-wider text-lime-500 uppercase"> customer service </h3>
                 <ul role="list" className="mt-4 space-y-2">
                   <li>
-                    <a href="/pricing" className=" text-base font-normal text-gray-500 hover:text-lime-500"> Rreturn an order </a>
+                    <p  className=" text-base font-normal text-gray-500 hover:text-lime-500"> Rreturn an order </p>
                   </li>
                   <li>
-                    <a href="/pricing" className=" text-base font-normal text-gray-500 hover:text-lime-500"> Orders and Returns </a>
+                    <p  className=" text-base font-normal text-gray-500 hover:text-lime-500"> Orders and Returns </p>
                   </li>
                   <li>
-                    <a href="/pricing" className=" text-base font-normal text-gray-500 hover:text-lime-500"> FAQs </a>
+                    <p  className=" text-base font-normal text-gray-500 hover:text-lime-500"> FAQs </p>
                   </li>
                   <li>
-                    <a href="/pricing" className=" text-base font-normal text-gray-500 hover:text-lime-500"> Contact us </a>
+                    <p  className=" text-base font-normal text-gray-500 hover:text-lime-500"> Contact us </p>
                   </li>
                 </ul>
               </div>
@@ -58,36 +58,36 @@ function Footer() {
                 <h3 className="text-sm font-bold tracking-wider text-lime-500 uppercase"> Legal </h3>
                 <ul role="list" className="mt-4 space-y-2">
                   <li>
-                    <a href="./refund.html" className="
+                    <p className="
                   text-base
                   font-normal
                   text-gray-500
                   hover:text-lime-500
-                "> Refund </a>
+                "> Refund </p>
                   </li>
                   <li>
-                    <a href="/license" className="
+                    <p className="
                   text-base
                   font-normal
                   text-gray-500
                   hover:text-lime-500
-                "> License </a>
+                "> License </p>
                   </li>
                   <li>
-                    <a href="/privacy" className="
+                    <p className="
                   text-base
                   font-normal
                   text-gray-500
                   hover:text-lime-500
-                "> Privacy Policy </a>
+                "> Privacy Policy </p>
                   </li>
                   <li>
-                    <a href="/terms" className="
+                    <p className="
                   text-base
                   font-normal
                   text-gray-500
                   hover:text-lime-500
-                "> Terms </a>
+                "> Terms </p>
                   </li>
                 </ul>
               </div>
@@ -95,28 +95,28 @@ function Footer() {
                 <h3 className="text-sm font-bold tracking-wider text-lime-500 uppercase"> Socials </h3>
                 <ul role="list" className="mt-4 space-y-2">
                   <li>
-                    <a href="https://twitter.com/" className="
+                    <p className="
                   text-base
                   font-normal
                   text-gray-500
                   hover:text-lime-500
-                "> Twitter </a>
+                "> Twitter </p>
                   </li>
                   <li>
-                    <a href="https://facebook.com/" className="
+                    <p  className="
                   text-base
                   font-normal
                   text-gray-500
                   hover:text-lime-500
-                "> Facebook </a>
+                "> Facebook </p>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" className="
+                    <p className="
                   text-base
                   font-normal
                   text-gray-500
                   hover:text-lime-500
-                "> Indie Hackers </a>
+                "> Indie Hackers </p>
                   </li>
                 </ul>
               </div>
@@ -127,7 +127,7 @@ function Footer() {
       <div className="bg-gray-50"> 
       <div className="px-4 py-8 mx-auto max-w-7xl sm:px-6 lg:px-16">
         <div className="flex flex-wrap items-baseline">
-          <span className="mt-2 text-sm font-light text-gray-500"> Copyright © 2022 <a href="https://autoaccessoriesvessel.dev" className="mx-2 text-wickedlime hover:text-gray-500" rel="noopener noreferrer">@Auto Accessories Vessel</a>. Since 2020 </span>
+          <span className="mt-2 text-sm font-light text-gray-500"> Copyright © 2022 <p className="mx-2 text-wickedlime hover:text-gray-500" rel="noopener noreferrer">@Auto Accessories Vessel</p>. Since 2020 </span>
         </div>
       </div>      
       </div>
